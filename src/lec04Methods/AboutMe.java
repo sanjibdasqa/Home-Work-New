@@ -1,4 +1,4 @@
-package hw3JavaVariables;
+package lec04Methods;
 
 public class AboutMe {
 	// Variable Declared

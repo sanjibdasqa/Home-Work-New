@@ -1,11 +1,11 @@
-package hw1JavaBasic;
+package hw2JavaBasics;
 
 /* Project Name starts with Upper Case  
  * Package Name starts with with Lower Case 
  * Class Name starts with Upper Case 
  */
 
-public class MySelf {
+public class HW01MySelf {
 	// Main method is the entry point of java
 	public static void main(String[] args) {
 		System.out.println("My Name is Sanjib Das");
