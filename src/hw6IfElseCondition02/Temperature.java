@@ -3,15 +3,13 @@ package hw6IfElseCondition02;
 import java.util.Scanner;
 
 public class Temperature {
-	int temperarute = 78;
 
 	public static void main(String[] args) {
-
+		System.out.println("\"Todays Weather\"");
 		Scanner scanner = new Scanner(System.in);
 		int temperature = scanner.nextInt();
 		if (temperature < 32) {
 			System.out.println("\"Freezing\"");
-
 		} else if (temperature < 55) {
 			System.out.println("\"Pleasant\"");
 		} else if (temperature < 73) {
