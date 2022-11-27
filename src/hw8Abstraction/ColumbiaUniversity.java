@@ -2,8 +2,10 @@ package hw8Abstraction;
 
 public class ColumbiaUniversity {
 
+	public ColumbiaUniversity() {
+	} // we can create constructor in regular class.
+
 	/*
-	 * public ColumbiaUniversityCan() {} we can not create a default constructor
 	 * which name is different from the class name because constructor name should
 	 * be the as same as class name.
 	 */
