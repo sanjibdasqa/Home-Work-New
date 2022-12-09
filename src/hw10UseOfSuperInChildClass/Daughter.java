@@ -1,6 +1,5 @@
 package hw10UseOfSuperInChildClass;
 
-import javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction;
 
 public class Daughter extends Father {
 	String birthMonth; 
@@ -22,7 +21,7 @@ public class Daughter extends Father {
 	
 		public void daughter() {
 			
-			System.out.println("This is a regular method");
+			System.out.println("This is a regular method from daughter class");
 								
 			}
 		public void daughter(String birthMonth, int age) {

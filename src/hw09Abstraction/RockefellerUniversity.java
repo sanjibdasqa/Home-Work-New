@@ -1,4 +1,4 @@
-package hw10Abstraction;
+package hw09Abstraction;
 
 public class RockefellerUniversity {
 	
@@ -9,15 +9,8 @@ public class RockefellerUniversity {
 	 * Regular class can inherit one regular or one abstract class by extend keyword and more than one 
 	 * interface by implement keyword 
 	  */
+	 
 	
 	
 	
-	
-	
-	
-	
-	public void maths() {
-
-	}
-
 }

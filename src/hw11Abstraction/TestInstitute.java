@@ -29,10 +29,10 @@ public class TestInstitute {
 		colUni.computerLab();
 		colUni.anthropology();
 		colUni.aeronauticalInfo();
-		University.black();
+		University.library();
 		ColumbiaUniversity.yellow();
 		MedicalSchool.white();
-		colUni.red();
+		colUSni.yellow();
 
 	}
 
