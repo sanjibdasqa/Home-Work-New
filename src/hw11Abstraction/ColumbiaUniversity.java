@@ -95,7 +95,7 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 			
 	}
 	
-	public static void yellow() {
+	public static void visacard() {
 		System.out.println("This is a static method from columbia uni");
 	}
 	

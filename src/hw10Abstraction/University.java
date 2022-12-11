@@ -2,13 +2,23 @@ package hw10Abstraction;
 
 public interface University extends College, Hospital {
 
-	// Only one word is used for inheritance the interface and this is extends
-	/*
-	 * An interface only can inherit interfaces only by extends keyword , interface
-	 * can not inherit a regular class and abstract class
-	 * more that one inheritance is possible by extends keyword 
-	 */
-
+	//HW 10 Abstraction Comments
+		/*Only one word is used for inheritance the interface and this is extends keyword.
+		 * An interface only can inherit interfaces only by extends keyword ,
+		 * Interface can not inherit regular class and abstract class by extend keyword
+		 * Also interface can not use implement keyword for inheritance.
+		 * In the interface only one inheritance is possible which is done by Extends keyword
+		 * and by using that more than one interface can be inherited
+		 */
+		
+	//HW 09 Abstraction Comments
+	/* Only one word is used for inheritance the interface and this is extends keyword.
+		* An interface only can inherit interfaces only by extends keyword ,
+		 * Interface can not inherit regular class and abstract class by extend keyword
+		 * In the interface only one inheritance is possible which is done by Extends keyword
+		 * and by using that more than one interface can be inherited
+		 */
+		
 	/*
 	 * public University () {} 'created constructor' But it says interface can't
 	 * have any constructor.

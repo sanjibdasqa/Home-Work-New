@@ -8,7 +8,6 @@ public interface College {
 
 	public void languageClub();
 
-
 	public default void dorm  () {
 		System.out.println("This is default method from College ");
 	}

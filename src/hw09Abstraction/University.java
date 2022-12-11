@@ -3,12 +3,14 @@ package hw09Abstraction;
 
 public interface University extends College, Hospital {
 
-	// Only one word is used for inheritance the interface and this is extends
+	// Only one word is used for inheritance the interface and this is extends keyword.
 	/*
-	 * An interface only can inherit interfaces only by extends keyword , interface
-	 * can not inherit a regular class and abstract class by extends key words.	
+	 * An interface only can inherit interfaces only by extends keyword ,
+	 * Interface can not inherit regular class and abstract class by extend keyword
+	 * In the interface only one inheritance is possible which is done by Extends keyword
+	 * and by using that more than one interface can be inherited
 	 */
-
+	
 	/*
 	 * public University () {} 'created constructor' But it says interface can't
 	 * have any constructor.

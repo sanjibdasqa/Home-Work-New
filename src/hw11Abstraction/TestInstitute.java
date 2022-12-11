@@ -30,10 +30,10 @@ public class TestInstitute {
 		colUni.anthropology();
 		colUni.aeronauticalInfo();
 		University.library();
-		ColumbiaUniversity.yellow();
+		ColumbiaUniversity.visacard();
 		MedicalSchool.white();
-		colUSni.yellow();
-
+		
+		
 	}
 
 }
