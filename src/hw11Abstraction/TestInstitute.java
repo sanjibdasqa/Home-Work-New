@@ -23,14 +23,15 @@ public class TestInstitute {
 		colUni.anatomyLab();
 		colUni.hygiene();
 		colUni.biochemistryLab();
+		ColumbiaUniversity.white();
 		colUni.caring();
 		colUni.maths();
 		colUni.mechanicalLab();
 		colUni.computerLab();
 		colUni.anthropology();
 		colUni.aeronauticalInfo();
-		University.library();
-		ColumbiaUniversity.visacard();
+	    University.library();
+	    ColumbiaUniversity.visacard();
 		MedicalSchool.white();
 		
 		
