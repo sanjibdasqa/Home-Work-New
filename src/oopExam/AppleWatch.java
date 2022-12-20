@@ -11,30 +11,24 @@ package oopExam;
  ere, Can you make a relationship of AppleWatch with Watch, DigitalWatch, and AppleWatchSeries5? [points: 70] . 
  */
 
-public abstract class AppleWatch extends AppleWatchSeries5 implements Watch ,DigitalWatch {
+public abstract class AppleWatch extends AppleWatchSeries5 implements Watch, DigitalWatch {
 	public String name;
 	public int price;
-	
-	
+
 	public AppleWatch() {
 		System.out.println("This is a default constactor from Apple Watch");
 	}
-	
-	
-	
+
 	public static void main(String[] args) {
-		//AppleWatch aW = new AppleWatch; abstract class cannot be instantiated
-		}
-	     
-	public abstract void appleWatchInfo();
-	
-	public void abstractClassInfo() {
-		System.out.println("this is a non abstract method");
+		// AppleWatch aW = new AppleWatch; abstract class cannot be instantiated
 	}
-	
-	
-	/*
-Create 2 method: One is abstractClassInfo [which is a non-abstract method, print out all the features of an abstract class compared with Interface, regular class]. what type of method would be the other one if the name is appleWatchInfo? Please create this method
-	 */
+
+	public abstract void appleWatchInfo(); // This is a abstract method.
+
+	public void abstractClassInfo() {
+		System.out.println(
+				"1.An abstract class must have an abstract method but in regular and interface it is not mendatory\n2. Abstract class can't be instantiated but a regular class can be instanciated/n3."
+						+ "+\n3.Contains both abstract and not abstract method");
+	}
 
 }
